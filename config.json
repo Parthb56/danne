@@ -3,7 +3,7 @@
 	"port": "62011",
 	"name": "danna5675777",
 	"auto-night-skip":"false",
-	"login-enabled":"true",
+	"login-enabled":"false",
 	"register-cmd":"/register (type_ur_pass_here(remember_no_spaces)) (type_ur_pass_here(remember_no_spaces))",
 	"login-cmd":"/login (type_ur_pass_here)"
 }
