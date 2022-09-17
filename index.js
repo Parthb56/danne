@@ -92,6 +92,7 @@ bot.on('time', function(time) {
         }
     }
 });
+	bot.loadPlugin(deathEvent)
 
 bot.on("playerDeath", (data) => {
   console.log(data);
