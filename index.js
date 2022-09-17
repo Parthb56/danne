@@ -93,6 +93,10 @@ bot.on('time', function(time) {
     }
 });
 
+bot.on("playerDeath", (data) => {
+  console.log(data);
+});
+
 bot.on('chat', (username, message) => {
     if (username === bot.username) return
     const result = /canSee (-?[0-9]+),(-?[0-9]+),(-?[0-9]+)/.exec(message)
@@ -207,6 +211,24 @@ bot.on('error', (err) => {
 };
 
 initBot();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
