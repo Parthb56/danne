@@ -15,6 +15,7 @@ var maxrandom = 5; // 0-5 seconds added to movement interval (randomly)
 var host = data["ip"];
 var username = data["name"]
 var nightskip = data["auto-night-skip"]
+yarn add mineflayer-death-event
 const initBot = () => {
 var bot = mineflayer.createBot({
   host: host,
@@ -92,6 +93,7 @@ bot.on('time', function(time) {
         }
     }
 });
+	bot.loadPlugin(deathEvent)
 
 bot.on("playerDeath", (data) => {
   console.log(data);
