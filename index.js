@@ -46,13 +46,13 @@ bot.on('login',function(){
 function task(i) { 
 	
   setTimeout(function() { 
-    if(i==9){
+    if(i == 9){
         console.log(i)
 	bot.chat("...")
 	
 	}
 	else{
-		bot.chat(",,,")
+		bot.chat(",")
 		
 	}
   }, 3600000 * i); 
