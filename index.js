@@ -19,7 +19,7 @@ const initBot = () => {
 var bot = mineflayer.createBot({
   host: host,
   port:data["port"],
-  username: username
+  username: danne69
 });
 function getRandomArbitrary(min, max) {
        return Math.random() * (max - min) + min;
